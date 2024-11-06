@@ -1,5 +1,5 @@
 # fraud-detection
-##### In this notebook, we're building Machine Learning model that detect fraud transitions.
+##### In this project, we're building a Machine Learning model that detects fraud transitions.
 ###### Dataset: https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data
 
 ## Key Words:
@@ -79,8 +79,11 @@ Example curl command:
     
 Note: Replace <localhost address> with http://127.0.0.1:8000 or your server's address if different.
 
-## Best Results
-Model recall for RandomForestClassifier: 0.8877551020408163
-Model precision for RandomForestClassifier: 1.0
-Model AUC for RandomForestClassifier: 0.9438775510204082
+## Model Performance (RandomForest Classifier)
+
+ Recall: 0.89
+
+Precision: 1.0
+
+AUC: 0.94
 
